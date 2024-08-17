@@ -51,13 +51,25 @@ section {
 }
 
 section#home {
-    background: #333;
-    color: #fff;
+    background: #333; /* Dark background */
+    color: #fff; /* Light text color for contrast */
     text-align: center;
+    padding: 20px; /* Added padding for spacing */
 }
 
-h1, h2 {
-    color: #333;
+h1 {
+    color: #fff; /* Ensure the main heading text is white */
+    font-size: 2.5em; /* Increase font size for visibility */
+    margin: 0; /* Remove default margin for better alignment */
+}
+
+p {
+    color: #ddd; /* Lighter color for paragraph text to stand out */
+    font-size: 1.2em; /* Slightly larger font size for better readability */
+}
+
+h2 {
+    color: #333; /* Darker color for subheadings */
 }
 
 footer {
