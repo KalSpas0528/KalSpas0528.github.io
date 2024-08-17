@@ -12,6 +12,15 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    position: relative; /* Ensures the image is positioned correctly */
+}
+
+.header-image {
+    width: 150px; /* Adjust this value to resize the image */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 50%; /* Optional: makes the image circular */
+    display: block;
+    margin: 20px auto; /* Centers the image horizontally */
 }
 
 nav ul {
@@ -80,4 +89,3 @@ ul li {
 address {
     font-style: normal;
 }
-
