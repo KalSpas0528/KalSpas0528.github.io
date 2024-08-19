@@ -9,7 +9,7 @@ body {
 
 header {
     background: #333;
-    color: #eee; /* Softer white for header text */
+    color: #ddd; /* Darker than before for better readability */
     padding: 10px 0;
     text-align: center;
     position: relative; /* Ensures the image is positioned correctly */
@@ -36,7 +36,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ddd; /* Softer white for links */
+    color: #ccc; /* Slightly darker white for links */
     text-decoration: none;
     font-weight: bold;
 }
@@ -52,19 +52,19 @@ section {
 
 section#home {
     background: #333;
-    color: #eee; /* Softer white for the main section text */
+    color: #ddd; /* Darker than before for better readability */
     text-align: center;
     padding: 20px;
 }
 
 h1 {
-    color: #fff; /* Keep main heading text white for contrast */
+    color: #eee; /* Slightly darker white for the main heading */
     font-size: 2.5em;
     margin: 0;
 }
 
 p {
-    color: #ccc; /* Lighter grey for paragraphs to reduce brightness */
+    color: #bbb; /* Darker grey for paragraphs to reduce brightness */
     font-size: 1.2em;
 }
 
@@ -76,16 +76,16 @@ h2 {
 section#profile p,
 section#experience p,
 section#contact p {
-    color: #bbb; /* Darker grey for better readability */
+    color: #999; /* Darker grey for better readability */
 }
 
 section#contact a {
-    color: #aaa; /* Darker grey for contact links */
+    color: #888; /* Darker grey for contact links */
 }
 
 footer {
     background: #333;
-    color: #eee; /* Softer white for footer text */
+    color: #ddd; /* Darker white for footer text */
     text-align: center;
     padding: 10px 0;
     position: fixed;
@@ -94,7 +94,7 @@ footer {
 }
 
 a {
-    color: #555; /* Darker grey for links */
+    color: #666; /* Darker grey for links */
     text-decoration: none;
 }
 
