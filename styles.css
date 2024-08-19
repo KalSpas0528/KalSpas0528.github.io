@@ -72,6 +72,17 @@ h2 {
     color: #444; /* Darker grey for subheadings to maintain consistency */
 }
 
+/* Specific adjustments for Profile, Experience, and Contact sections */
+section#profile p,
+section#experience p,
+section#contact p {
+    color: #bbb; /* Darker grey for better readability */
+}
+
+section#contact a {
+    color: #aaa; /* Darker grey for contact links */
+}
+
 footer {
     background: #333;
     color: #eee; /* Softer white for footer text */
