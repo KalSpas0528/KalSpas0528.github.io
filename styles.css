@@ -1,33 +1,36 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f4f4f9;
-    color: #444; /* Slightly darker text color for improved readability */
+    background-color: #f9f9fc;
+    color: #333;
 }
 
 header {
-    background: #333;
-    color: #ddd; /* Darker than before for better readability */
-    padding: 10px 0;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    padding: 20px 0;
     text-align: center;
-    position: relative; /* Ensures the image is positioned correctly */
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .header-image {
-    width: 120px;
-    height: 120px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     object-fit: cover;
     display: block;
     margin: 10px auto;
+    border: 4px solid #fff;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 nav ul li {
@@ -36,70 +39,91 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ccc; /* Slightly darker white for links */
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffea00;
 }
 
 section {
     padding: 20px;
     margin: 20px auto;
-    max-width: 800px;
+    max-width: 900px;
     background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 section#home {
-    background: #333;
-    color: #ddd; /* Darker than before for better readability */
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
+    border-radius: 0 0 12px 12px;
 }
 
 h1 {
-    color: #eee; /* Slightly darker white for the main heading */
-    font-size: 2.5em;
+    color: #fff;
+    font-size: 3em;
     margin: 0;
+    font-weight: bold;
 }
 
 p {
-    color: #bbb; /* Darker grey for paragraphs to reduce brightness */
+    color: #555;
     font-size: 1.2em;
 }
 
 h2 {
-    color: #444; /* Darker grey for subheadings to maintain consistency */
+    color: #444;
+    font-size: 2em;
+    border-bottom: 2px solid #6a11cb;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 /* Specific adjustments for Profile, Experience, and Contact sections */
 section#profile p,
 section#experience p,
 section#contact p {
-    color: #999; /* Darker grey for better readability */
+    color: #666;
 }
 
 section#contact a {
-    color: #888; /* Darker grey for contact links */
+    color: #2575fc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section#contact a:hover {
+    color: #6a11cb;
+    text-decoration: underline;
 }
 
 footer {
     background: #333;
-    color: #ddd; /* Darker white for footer text */
+    color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 15px 0;
     position: fixed;
     width: 100%;
     bottom: 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
 }
 
 a {
-    color: #666; /* Darker grey for links */
+    color: #2575fc;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #6a11cb;
 }
 
 ul {
@@ -108,32 +132,51 @@ ul {
 
 ul li {
     margin-bottom: 10px;
+    color: #444;
 }
 
 address {
     font-style: normal;
+    color: #666;
 }
+
 /* Additions for new Projects section */
 section#projects {
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
+    padding: 25px;
+    margin: 25px auto;
+    max-width: 900px;
     background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 section#projects h2 {
     color: #444;
-    font-size: 1.8em;
+    font-size: 2em;
 }
 
 section#projects ul li {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+    color: #555;
+}
+
+section#projects p {
     color: #666;
 }
 
-/* Keep consistency with other sections */
-section#projects p {
-    color: #999;
+/* Buttons for Call-to-Actions */
+button {
+    background: #6a11cb;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #2575fc;
 }
