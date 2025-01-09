@@ -113,3 +113,27 @@ ul li {
 address {
     font-style: normal;
 }
+/* Additions for new Projects section */
+section#projects {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section#projects h2 {
+    color: #444;
+    font-size: 1.8em;
+}
+
+section#projects ul li {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+/* Keep consistency with other sections */
+section#projects p {
+    color: #999;
+}
